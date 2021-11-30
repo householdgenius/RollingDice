@@ -13,7 +13,9 @@ public override int Roll()
         public void SmackTalk()
         {
             string[] insults = {"You Suck","You smell","you are bad at this game", "insult#4"};
-
+            Random insult = new Random();
+            int index =insult.Next(insults.Length);
+            Console.WriteLine($"{insults[index]}");
         }
     }
 }
