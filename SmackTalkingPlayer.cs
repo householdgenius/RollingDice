@@ -16,7 +16,7 @@ namespace ShootingDice
         }
         public void SmackTalk()
         {
-            Console.WriteLine("You Suck");
+            Console.WriteLine("YOU SUCK!!!");
         }
         }
  }
